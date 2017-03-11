@@ -4,7 +4,7 @@ const { resolve } = require('path')
 const { branch } = require('git-rev')
 const { cyan, gray, red, bold } = require('chalk')
 
-const { name: moduleName } = require(resolve(__dirname, 'package.json'))
+const { name: moduleName } = require(resolve(process.cwd(), 'package.json'))
 const limit = 63
 
 branch(branchName => {
