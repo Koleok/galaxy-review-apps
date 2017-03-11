@@ -5,7 +5,9 @@
   "author": "Kyle Chamberlain",
   "license": "MIT",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "galaxy-review-apps": "index.js"
+  },
   "keywords": [
     "meteor",
     "galaxy",
