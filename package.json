@@ -1,0 +1,12 @@
+{
+  "name": "galaxy-review-apps",
+  "version": "1.0.0",
+  "description": "Simple scripts to aid in using galaxy with gitlab review apps",
+  "main": "index.js",
+  "author": "Kyle Chamberlain",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "git-rev": "^0.2.1"
+  }
+}
